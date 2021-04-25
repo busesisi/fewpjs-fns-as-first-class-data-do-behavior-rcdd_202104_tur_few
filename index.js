@@ -21,11 +21,14 @@ function greet (timeString) {
     return "Good Evening";
 }
 }
-let a = [];
+void function displayMessage () {
+  console.log('boo!');
+}
+/*let a = [];
 void function displayMessage (a) {
 
   document.getElementById("greeting").innerHTML = a;
-}
+}*/
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
