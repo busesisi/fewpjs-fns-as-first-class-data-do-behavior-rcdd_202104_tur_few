@@ -21,9 +21,10 @@ function greet (timeString) {
     return "Good Evening";
 }
 }
-void function displayMessage () {
-  console.log('boo!');
+function displayMessage(TEST){
+  document.getElementById("greeting").innerText="TEST";
 }
+
 /*let a = [];
 void function displayMessage (a) {
 
