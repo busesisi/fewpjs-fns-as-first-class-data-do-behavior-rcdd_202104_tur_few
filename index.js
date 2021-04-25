@@ -11,7 +11,7 @@ function handleClick(e) {
 function greet (timeString) {
   const splittedTime = timeString.split(':');
   const parded = parseInt.(timeString.split(':').[0]);
-  if (parsed<12, ){
+  if (parsed<12){
     return "Good Morning";
   }
 }
