@@ -22,8 +22,9 @@ function greet (timeString) {
 }
 }
 
-function displayMessage () {
-  document.getElementById("greeting").innerHTML = " ";
+function displayMessage (a) {
+  let a = [];
+  document.getElementById("greeting").innerHTML = a;
 }
 
 /* Write your implementation of greet() */
