@@ -22,7 +22,7 @@ function greet (timeString) {
 }
 }
 
-function displayMessage ("") {
+function displayMessage (" ") {
   document.getElementById("greeting").innerHTML = " ";
 }
 
