@@ -10,7 +10,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 function greet (timeString) {
   const splittedTime = timeString.split(':');
-  const parsed = parseInt.(timeString.split(':').[0]);
+  const parsed = parseInt(timeString.split(':').[0]);
   if (parsed<12){
     return "Good Morning";
   }
