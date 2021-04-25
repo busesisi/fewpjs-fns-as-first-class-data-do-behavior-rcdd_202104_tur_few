@@ -23,7 +23,7 @@ function greet (timeString) {
 }
 let a = [];
 void function displayMessage (a) {
-  
+
   document.getElementById("greeting").innerHTML = a;
 }
 
