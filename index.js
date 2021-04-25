@@ -21,9 +21,9 @@ function greet (timeString) {
     return "Good Evening";
 }
 }
-
+let a = [];
 function displayMessage (a) {
-  let a = [];
+  
   document.getElementById("greeting").innerHTML = a;
 }
 
